@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* first part  */
+.sec-1{
+  display: flex;
+  justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.img-1{
+  height: 50px;
+  width: 50px;
+}
+.img-2{
+  height: 22px;
+  width: 22px;
+}
+.div-1{
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+.h1{
+  color: #006747;
+  font-size: 15px;
+}
+.div-2{
+  padding: 10px;
+}
+.btn-1{
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(65, 255, 107, 0.1);
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+}
+.btn-2{
+  border-radius: 50px;
+  border: none;
+  background-color: #00A63E;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 12px 20px 12px 20px;
+}
+.img-3{
+  height: 92px;
+  width: 92px;
+}
+.sec-2{
+  background: linear-gradient(90.00deg, rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),rgba(0, 103, 71, 1) 50%,rgba(1, 50, 35, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 60px 12px 60px;
+  gap: 11px;
+  color: white
+}
+/* card part */
+.main-part{
+  background: rgba(245, 255, 246, 1);
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  position: relative;
+  width: 300px;
+  height: 360px;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+  background: var(--White, rgba(255, 255, 255, 1));
+  
+}
+.buttons { 
+  padding: 6px;
+}
+
+.i-1{
+  position: absolute;
+  left: 90%;
+}
+.p-1{
+  color: var(--Gray, rgba(92, 92, 92, 1));
+}
+.p-2{
+  color: var(--Dark, rgba(17, 17, 17, 1));
+  font-size: 32px;
+  font-weight: 700;
+}
+.btn-5{
+  width: 53px;
+  height: 37px;
+  border-radius: 9999px;
+  background: var(--Gray-Light, rgba(242, 242, 242, 1));
+  border: none;
+  color: gray;
+}
+.btn-3{
+  width: 120px;
+  height: 40px;
+  color: gray;
+  box-sizing: border-box;
+  border: 1px solid var(--Stroke, rgba(212, 214, 213, 1));
+  border-radius: 8px;
+  background: var(--White, rgba(255, 255, 255, 1));
+}
+.btn-4{
+  width: 120px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background: var(--Green, rgba(0, 166, 62, 1));
+}
+.logo-img{
+  width: 32px;
+  height: 32px;
+}
