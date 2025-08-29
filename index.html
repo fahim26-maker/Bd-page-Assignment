@@ -15,11 +15,12 @@
         <h1 class="h1">Emergency </br>Service</h1>
         </div>
         <div class="div-2">
-            <button class="btn-1">0 <img src="assets/heart.png" class="img-2"></button>
+            <button class="btn-1"><span id="heart-count">0 </span><img src="assets/heart.png" class="img-2"></button>
             <button class="btn-1">100 <img src="assets/coin.png" class="img-2"></button>
             <button class="btn-2">2 copy</button>
         </div>
     </section>
+         <script src="script.js"></script>
     <section class="sec-2">
         <img src="assets/logo-dark.png" class="img-3">
         <h2>Emergency Service Directory</h2>
@@ -29,11 +30,10 @@
         <section class="container">
             <div class="card">
                 <img src="assets/emergency.png" class="logo-img">
-                <i class="fa-regular fa-heart i-1"></i>
+                <i class="fa-regular fa-heart i-1" id="btn-1"></i>
                 <h3>National Emergency Number</h3>
                 <p class="p-1">National Emergency</p>
                 <p class="p-2">999</p>
-                
                 <button class="btn-5">All</button>
                 <div class="buttons">
                 <button class="btn-3"><i class="fa-regular fa-copy"></i> Copy</button>
@@ -102,15 +102,18 @@
             </div>
             </div>
         </section>
-        <section class="card-2">
-        <div><i class="fa-regular fa-clock"></i> Call History</div>
+        <section class="card-2 container-2">
+        <div class="history">
+            <div>
+        <i class="fa-regular fa-clock"></i> Call History
+        </div>
         <button class="btn-2">Clear</button>
+        </div>
         <div class="card-3">
             <h4>Fire Service</h4>
             <p>999</p>
         </div>
-        <div>
-        <div class="card-3"></div>
+        <div class="card-3">
             <h4>Nation Emergency Number</h4>
             <p>1994-999999</p>
         </div>
@@ -131,5 +134,6 @@
             <p>999</p>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
