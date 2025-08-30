@@ -171,3 +171,94 @@
   flex-direction: row;
   justify-content: space-between;
 }
+@media (max-width: 768px) {
+  /* Stack header elements */
+  .sec-1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .div-1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .div-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn-1, .btn-2 {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* Logo and heading */
+  .img-1, .img-2 {
+    height: 40px;
+    width: 40px;
+  }
+
+  .img-3 {
+    height: 72px;
+    width: 72px;
+  }
+
+  .sec-2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Main layout */
+  .main-part {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: 80%;
+    max-width: 350px;
+  }
+
+  .btn-3, .btn-4 {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* History section */
+  .card-2 {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .card-3 {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .history {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
