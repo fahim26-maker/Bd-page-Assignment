@@ -66,7 +66,7 @@ clearButton.addEventListener('click', () => {
 });
 // copy count part-----------------------------------------------------------
 // Initial copy count
-let copyCount = 2;
+let copyCount = 0;
 
 // Select the copy count button (third button in .div-2)
 const copyCountButton = document.querySelectorAll('.btn-2')[0];
