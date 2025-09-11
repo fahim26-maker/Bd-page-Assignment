@@ -88,8 +88,9 @@
   position: relative;
   width: 320px;
   height: 310px;
+  gap: 2px;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px ;
   border-radius: 12px;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
   background: var(--White, rgba(255, 255, 255, 1));
@@ -144,7 +145,8 @@
 .card-2{
   height: 720px;
   width: 400px;
-  flex-direction: column;
+  /* flex-direction: column; */
+  align-content: start;
   padding: 10px;
   border-radius: 12px;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
@@ -159,7 +161,7 @@
 .card-3{
   height: 80px;
   width: 300px;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: flex-start;
   align-items: center;
   padding: 10px;
