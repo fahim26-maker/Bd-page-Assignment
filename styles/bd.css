@@ -144,8 +144,8 @@
 /* card two */
 .card-2{
   height: 720px;
-  width: 400px;
-  /* flex-direction: column; */
+  width: 600px;
+  flex-direction: column;
   align-content: start;
   padding: 10px;
   border-radius: 12px;

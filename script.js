@@ -35,6 +35,13 @@ const initialHistoryCards = document.querySelectorAll('.card-3');
 initialHistoryCards.forEach(card => card.remove());
 
 // Handle Call Button Click
+function getCurrentTime() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    return `${hours}:${minutes}:${seconds}`;
+}
 callButtons.forEach(button => {
     button.addEventListener('click', () => {
         const card = button.closest('.card');
@@ -55,7 +62,12 @@ callButtons.forEach(button => {
         // Create and append new history card
         const historyCard = document.createElement('div');
         historyCard.classList.add('card-3');
-        historyCard.innerHTML = `<h4>${serviceName}</h4><p>${serviceNumber}</p>`;
+        const time = getCurrentTime();
+historyCard.innerHTML = `
+  <h4>${serviceName}</h4>
+  <p>${serviceNumber}</p>
+  <p class="call-time">Time: ${time}</p>
+`;
         callHistoryContainer.appendChild(historyCard);
     });
 });
